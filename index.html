@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <!-- ICON  -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+  <!-- CSS    -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Frontend Mentor | Price Component</title>
+</head>
+
+<body>
+  <section class="price-container">
+
+    <div class="price-heading">
+      <p class="price-title">Our Pricing</p>
+      <div class="toggle-container">
+        <p class="toggle-text">Annually</p>
+
+        <label class="switch">
+          <input type="checkbox" class="toggle-btn" checked name="toggle" id="toggle">
+          <span class="slider round"></span>
+        </label>
+
+        <p class="toggle-text">Monthly</p>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="price-card card-1">
+        <p class="plan-tier">Basic</p>
+        <p class="price"><span class="dollar">$</span> <span class="basic">19.99</span></p>
+        <hr class="card-divider">
+        <p class="tier-services">500 GB Storage</p>
+        <hr class="card-divider">
+        <p class="tier-services">2 Users Allowed</p>
+        <hr class="card-divider">
+        <p class="tier-services">Send up to 3 GB</p>
+        <hr class="card-divider">
+        <a href="#" class="btn bg-dark-x">LEARN MORE</a>
+      </div>
+
+      <div class="price-card bg-dark-y">
+        <p class="plan-tier">Professional</>
+        <p class="price"><span class="dollar">$</span> <span class="pro">24.99</span></p>
+        <hr class="card-divider">
+        <p class="tier-services">1 TB Storage</p>
+        <hr class="card-divider">
+        <p class="tier-services">5 Users Allowed</p>
+        <hr class="card-divider">
+        <p class="tier-services">Send up to 10 GB</p>
+        <hr class="card-divider">
+        <a href="#" class="btn">LEARN MORE</a>
+      </div>
+
+      <div class="price-card card-3">
+        <p class="plan-tier">Master</p>
+        <p class="price"><span class="dollar">$</span> <span class="master">39.99</span></p>
+        <hr class="card-divider">
+        <p class="tier-services">2 TB Storage</p>
+        <hr class="card-divider">
+        <p class="tier-services">10 Users Allowed</p>
+        <hr class="card-divider">
+        <p class="tier-services">Send up to 20 GB</p>
+        <hr class="card-divider">
+        <a href="#" class="btn bg-dark-x">LEARN MORE</a>
+      </div>
+    </div>
+
+
+    <!-- Background designs  -->
+    <div class="bg-top">
+      <img src="./images/bg-top.svg" alt="">
+    </div>
+
+    <div class="bg-bottom">
+      <img src="./images/bg-bottom.svg" alt="">
+    </div>
+  </section>
+  <!-- scripts  -->
+  <script src="app.js"></script>
+</body>
+
+</html>
